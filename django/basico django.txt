@@ -1,0 +1,21 @@
+Django trabaja con :
+
+-> proyectos -> es el todo, esta compuesto por varias aplicaciones
+-> aplicaciones -> cada parte del proyecto. Por ejemplo (carrito, sesiones, etc)
+
+
+primer paso, crear el proyecto desde consola. 
+
+-> django-admin startproject miproyecto .
+
+ejecutar servidor desde consola
+
+-> python manage.py runserver
+
+crear una aplicacion
+
+-> python manage.py startapp catalog
+
+conectar mi proyecto general con mi aplicacion
+
+-> agregarlo al archivo settings.py, sección 'INSTALLED_APPS'
